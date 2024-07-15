@@ -1,0 +1,32 @@
+.titulo {
+    font-size: 30px;
+    background-color: #000000;
+    color: #ddd;
+    text-align: center;
+    font-size: 58px;
+  }
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie {
+    flex: 1 1 20%;
+    max-width: 200px;
+    text-align: center;
+}
+
+.movie img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.movie img:hover {
+    transform: scale(1.1);
+}
